@@ -1,0 +1,5 @@
+BUAT USER DI MONGODB
+
+1. use admin
+2. use foodstore
+3. db.createUser({user: 'test', pwd: '123456', roles: [{role: 'readWrite', db: 'foodstore'}]})
